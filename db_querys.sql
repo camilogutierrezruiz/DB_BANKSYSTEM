@@ -132,7 +132,7 @@ create view v_transations_types_detail as
 		left join transactions t on ttp.id = t.transaction_type;
 
 -------------------
--- Vistas
+-- Views
 -------------------
 
 select * from v_clients_accounts;
